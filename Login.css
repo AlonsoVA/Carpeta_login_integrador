@@ -1,0 +1,112 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    padding: 25px;
+    display: flex;
+    justify-self: end;
+    align-items:flex-start;
+    justify-content: end;
+    background-color: #EDEDED;
+}
+.logo {
+    display:flex;
+    justify-items: flex-end;
+}
+.logo img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px 3px 0 3px;
+}
+.Boton11{
+    display: flex;
+    justify-content: flex-end;
+}
+.boton{
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    margin-top: -50px;
+    margin-right: 20px;
+}.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    padding: 30px;
+}
+.contenedor2 .boton1{
+    color: aliceblue;
+    background-color: black;
+    width: 450px;
+    height: 30px;
+    border: 2px solid rgb(225, 225, 225, .2);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.input-box input{
+    width: 900px;
+    height: 40px;
+    border: 2px solid rgb(225, 225, 225, .2);
+    border-radius: 8px;
+}
+.input-box input{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.contenedor2 .imglogin{
+    width: 508px;
+    height: 657px;
+}
+.imglogin{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.imagencont{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 900px;
+    height: auto;
+}
+.boton1:hover {
+    background-color: #0056b3;
+}
+.Contenedor1{
+    display: flex;
+    flex-direction: column;
+}
+.imagencont img {
+    border-radius: 30%px;
+    height: 500px;
+    object-fit: cover;
+    margin: 3em ;
+}
+.creators  {
+    text-align:right;
+    margin: 10px;
+    text-align: center;
+}
+.creators2{
+    text-align:right;
+    padding: 10px;
+    text-align: center;
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ajusta la imagen para que cubra todo el contenedor */
+}
